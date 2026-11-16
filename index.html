@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Skills Institute | Where Skills Become Opportunities</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
+</head>
+
+<body class="m-0 w-full bg-[#0d1a2c] overflow-x-hidden">
+
+    <!-- HEADER -->
+    <header id="header" class="sticky top-0 left-0 w-full z-50 bg-[#0d1a2c]">
+
+        <nav class="flex items-center justify-between px-4 sm:px-6 lg:px-10 py-3 relative">
+
+            <!-- LOGO -->
+            <div class="flex items-center gap-2 text-white font-bold text-base sm:text-lg z-10">
+                <img src="logo.jpeg" alt="Logo" class="h-10 w-10 sm:h-12 sm:w-12 object-cover rounded-full">
+                <span>Digital Skills Institute</span>
+            </div>
+
+            <!-- DESKTOP MENU -->
+            <ul class="hidden md:flex items-center gap-5 lg:gap-8 z-10">
+
+                <li>
+                    <a href="#header" class="text-white hover:text-[#f9a826] transition duration-300">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about" class="text-white hover:text-[#f9a826] transition duration-300">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#courses" class="text-white hover:text-[#f9a826] transition duration-300">
+                        Courses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="text-white hover:text-[#f9a826] transition duration-300">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- MOBILE MENU BUTTON -->
+            <button id="menuBtn" class="md:hidden text-white text-3xl z-20">
+                ☰
+            </button>
+
+            <!-- MOBILE MENU -->
+            <ul id="mobileMenu"
+                class="hidden absolute top-full left-0 w-full bg-[#0d1a2c] flex-col items-center gap-6 py-6 shadow-lg">
+
+                <li>
+                    <a href="#header" class="text-white hover:text-[#f9a826] transition duration-300">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about" class="text-white hover:text-[#f9a826] transition duration-300">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#courses" class="text-white hover:text-[#f9a826] transition duration-300">
+                        Courses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="text-white hover:text-[#f9a826] transition duration-300">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HOME SECTION -->
+    <section id="home"
+        class="relative min-h-screen w-full flex items-center justify-center bg-[url('images(1).jpg')] bg-center bg-cover bg-no-repeat px-5 pt-24">
+
+        <!-- OVERLAY -->
+        <div class="absolute inset-0 bg-[#0d1a2c]/70"></div>
+
+        <!-- HOME CONTENT -->
+        <div class="relative z-10 w-full max-w-6xl mx-auto text-center">
+
+            <h1 class="font-serif text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
+                Welcome to the
+                <br>
+                Digital Skills Institute
+            </h1>
+
+            <p class="text-white/80 text-sm sm:text-base md:text-lg mt-5 max-w-2xl mx-auto">
+                Where Skills Become Opportunities. Learn, Grow and Build Your Future with Professional Digital Skills.
+            </p>
+
+            <a href="#courses"
+                class="inline-block mt-8 bg-[#f9a826] text-white font-bold py-3 px-7 rounded-lg hover:bg-[#e5941f] transition duration-300">
+                Get Started
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- COURSES SECTION -->
+    <section id="courses" class="relative w-full bg-[#0d1a2c] py-16 sm:py-20 px-4 sm:px-6">
+
+        <div class="max-w-7xl mx-auto">
+
+            <h2 class="text-white text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12">
+                Explore Our Courses and Start Your Journey Today!
+            </h2>
+
+            <!-- COURSE CARDS -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+
+
+                <!-- FREELANCING -->
+                <div
+                    class="rounded-[20px] p-6 border border-white/15 bg-white/10 shadow-[0_8px_32px_rgb(0_0_0/0.25)] backdrop-blur-xl hover:-translate-y-2 hover:border-[#f9a826] transition duration-300">
+
+                    <h2 class="text-white font-bold text-xl sm:text-2xl mb-3">
+                        Freelancing
+                    </h2>
+
+                    <p class="text-white/75 leading-relaxed text-sm sm:text-base">
+                        Learn essential freelancing skills, create a professional portfolio, and discover how to find
+                        clients online. Build your confidence, work on real-world projects.
+                    </p>
+
+                </div>
+
+
+                <!-- COMPUTER COURSE -->
+                <div
+                    class="rounded-[20px] p-6 border border-white/15 bg-white/10 shadow-[0_8px_32px_rgb(0_0_0/0.25)] backdrop-blur-xl hover:-translate-y-2 hover:border-[#f9a826] transition duration-300">
+
+                    <h2 class="text-white font-bold text-xl sm:text-2xl mb-3">
+                        Computer Course
+                    </h2>
+
+                    <p class="text-white/75 leading-relaxed text-sm sm:text-base">
+                        Learn essential computer skills, including MS Office, typing, and everyday digital tools.
+                        Build confidence and improve your skills for education and future career opportunities.
+                    </p>
+
+                </div>
+
+
+                <!-- E-COMMERCE -->
+                <div
+                    class="rounded-[20px] p-6 border border-white/15 bg-white/10 shadow-[0_8px_32px_rgb(0_0_0/0.25)] backdrop-blur-xl hover:-translate-y-2 hover:border-[#f9a826] transition duration-300">
+
+                    <h2 class="text-white font-bold text-xl sm:text-2xl mb-3">
+                        Ecommerce
+                    </h2>
+
+                    <p class="text-white/75 leading-relaxed text-sm sm:text-base">
+                        Learn how to build and manage an online store, showcase products, and attract customers.
+                        Develop essential e-commerce skills and start your journey in online business.
+                    </p>
+
+                </div>
+
+
+                <!-- GRAPHIC DESIGN -->
+                <div
+                    class="rounded-[20px] p-6 border border-white/15 bg-white/10 shadow-[0_8px_32px_rgb(0_0_0/0.25)] backdrop-blur-xl hover:-translate-y-2 hover:border-[#f9a826] transition duration-300">
+
+                    <h2 class="text-white font-bold text-xl sm:text-2xl mb-3">
+                        Graphic Design
+                    </h2>
+
+                    <p class="text-white/75 leading-relaxed text-sm sm:text-base">
+                        Learn creative design skills using professional tools to create logos, posters, and social
+                        media graphics. Turn your creativity into valuable skills and exciting career opportunities.
+                    </p>
+
+                </div>
+
+
+                <!-- WEBSITE DEVELOPMENT -->
+                <div
+                    class="rounded-[20px] p-6 border border-white/15 bg-white/10 shadow-[0_8px_32px_rgb(0_0_0/0.25)] backdrop-blur-xl hover:-translate-y-2 hover:border-[#f9a826] transition duration-300">
+
+                    <h2 class="text-white font-bold text-xl sm:text-2xl mb-3">
+                        Website Development
+                    </h2>
+
+                    <p class="text-white/75 leading-relaxed text-sm sm:text-base">
+                        Learn to create modern, responsive websites using HTML, CSS, and JavaScript.
+                        Build practical projects and develop skills for a successful web development career.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="relative w-full bg-[#101f35] py-16 sm:py-20 px-5 sm:px-8">
+
+        <div class="max-w-7xl mx-auto">
+
+            <div class="flex flex-col lg:flex-row items-center justify-between lg:gap-14">
+
+                <!-- ABOUT TEXT -->
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-white text-3xl max-[1000px]:text-center sm:text-4xl font-bold">
+                         Our Story
+                    </h2>
+                    <p class="text-white/75 text-base sm:text-lg md:text-xl leading-relaxed text-center lg:text-left">
+                        Digital Skills Institute was born from a simple yet meaningful idea. We received many inquiries from young girls in our community who wanted to learn new skills and asked us about the courses we offered. Seeing their passion for learning and their desire to build a better future inspired us to take a step forward. We decided to establish an institute in our local area where girls could learn valuable digital skills, explore new opportunities, and develop confidence in their abilities. This vision led to the creation of **Digital Skills Institute**, where we aim to empower young minds through knowledge, creativity, and practical learning.
+                    </p>
+
+                </div>
+
+
+                <!-- ABOUT IMAGE -->
+                <div class="w-full lg:w-1/2 flex justify-center">
+
+                    <img src="images(1).jpg" alt="Digital Skills Institute"
+                        class="w-full max-w-lg h-64 sm:h-80 lg:h-[420px] object-cover rounded-2xl shadow-2xl">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="w-full bg-[#0d1a2c] py-16 px-5 text-center">
+
+        <h2 class="text-white text-3xl sm:text-4xl font-bold mb-5">
+            Contact Us
+        </h2>
+
+        <p class="text-white/75 text-base sm:text-lg">
+            Start learning today and take the next step towards your future.
+        </p>
+
+        <form class="max-w-2xl mx-auto mt-8 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+
+            <input type="text" placeholder="Your Name"
+                class="w-full sm:w-auto flex-1 px-4 py-3 rounded-lg border border-white/30 bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#f9a826]"><br>
+
+            <input type="number" placeholder="Your Age"
+                class="w-full sm:w-auto flex-1 px-4 py-3 rounded-lg border border-white/30 bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#f9a826]"><br>
+        </form>
+        <a href="https://wa.me/+9203227079455"
+            class="inline-block mt-8 bg-[#f9a826] text-white font-bold py-3 px-7 rounded-lg hover:bg-[#e5941f] transition duration-300">
+            Contact Us on WhatsApp
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="w-full bg-black/30 py-5 px-4 text-center">
+
+        <p class="text-white/60 text-sm">
+            © 2026 Digital Skills Institute. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- MOBILE MENU SCRIPT -->
+    <script>
+
+        var menuBtn = document.querySelector("#menuBtn");
+        var mobileMenu = document.querySelector("#mobileMenu");
+
+        menuBtn.addEventListener("click", function () {
+
+            mobileMenu.classList.toggle("hidden");
+
+            if (mobileMenu.classList.contains("hidden")) {
+
+                menuBtn.innerHTML = "☰";
+
+            } else {
+
+                menuBtn.innerHTML = "✕";
+
+            }
+
+        });
+
+
+        // CLOSE MENU AFTER CLICKING A LINK
+
+        var menuLinks = document.querySelectorAll("#mobileMenu a");
+
+        for (var i = 0; i < menuLinks.length; i++) {
+
+            menuLinks[i].addEventListener("click", function () {
+
+                mobileMenu.classList.add("hidden");
+
+                menuBtn.innerHTML = "☰";
+
+            });
+
+        }
+
+    </script>
+
+</body>
+
+</html>
